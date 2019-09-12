@@ -2,7 +2,7 @@ class LinkedListNode
   attr_accessor :value, :next_node
 
   # creates a list by creating a head/next node with a value
-  # and a next pointer being nil
+  # and a next pointer being nil/ default parameter
   def initialize(value, next_node=nil)
     @value = value
     @next_node = next_node
